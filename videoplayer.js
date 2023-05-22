@@ -5,7 +5,6 @@ setTimeout(()=>{
   timeline = document.getElementsByClassName("timeline")[0],
   timelineProgress = document.getElementsByClassName("timeline__progress")[0],
   drag = document.getElementsByClassName("timeline__drag")[0];
-
   play.addEventListener("click", togglePlay, false);
 
 function togglePlay() {
